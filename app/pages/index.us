@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= pkg.name %></title>
+    <link rel="stylesheet" type="text/css" href="<%= css %>" media="all" />
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <script type="text/javascript" src="<%= js %>"></script>
+
+  </head>
+  <body>
+  </body>
+</html>
