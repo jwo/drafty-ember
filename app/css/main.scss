@@ -2,11 +2,25 @@
 @import "base/grid-settings";
 @import "neat/neat";
 @import "base/base";
-
+@import 'searchbar';
+@import 'table';
 
 
 section {
   @include outer-container;
-  aside { @include span-columns(3); }
-  article { @include span-columns(9); }
+  aside {
+    @include media($large-screen) {
+      @include span-columns(3);
+    }
+  }
+  article {
+    @include media($large-screen) {
+      @include span-columns(9); 
+    }
+  }
+}
+
+
+select {
+  width: 100%;
 }
