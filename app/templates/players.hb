@@ -70,7 +70,7 @@
         <th>Name</th>
         <th>Team</th>
         <th>Position</th>
-        <th>Total Points</th>
+        <th>PPG</th>
         <th>Position Rank</th>
       </tr>
     </thead>
@@ -81,7 +81,7 @@
           <td>{{player.full_name}}</td>
           <td>{{player.team}}</td>
           <td>{{player.position}}</td>
-          <td>{{player.total}}</td>
+          <td>{{player.ppg}}</td>
           <th>{{player.rank}}</td>
           <td>
             {{#if player.available}}
